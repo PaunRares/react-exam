@@ -1,0 +1,14 @@
+.PeopleItem {
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 65%;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.PeopleItem p {
+    border-bottom: 1px solid grey;
+}
+.PeopleItem span {
+    font-weight: 600;
+}
