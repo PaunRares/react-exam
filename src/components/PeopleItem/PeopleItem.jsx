@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import { removePeople } from '../redux/actions';
+import { removePeople } from '../../redux/actions';
 import './PeopleItem.css';
 
 function PeopleItem(props) {

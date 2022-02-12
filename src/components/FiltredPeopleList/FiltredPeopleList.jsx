@@ -1,5 +1,5 @@
 import React from 'react';
-import PeopleItem from './PeopleItem';
+import PeopleItem from '../PeopleItem/PeopleItem';
 import './FiltredPeopleList.css';
 
 function FiltredPeopleList(props) {

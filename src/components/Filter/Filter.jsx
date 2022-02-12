@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { filterPrice, sortName, sortPrice } from '../redux/actions';
+import { filterPrice, sortName, sortPrice } from '../../redux/actions';
 import './Filter.css';
 
 function Filter(props) {

@@ -1,8 +1,8 @@
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import People from './pages/People';
-import Page404 from './pages/Page404';
+import Home from './pages/Home/Home';
+import People from './pages/People/People';
+import Page404 from './pages/Page404/Page404';
 
 
 function App() {

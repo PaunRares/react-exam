@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import { addPeople } from '../redux/actions';
-import PeopleList from '../components/PeopleList';
-import Filter from '../components/Filter';
-import FiltredPeopleList from '../components/FiltredPeopleList';
+import { addPeople } from '../../redux/actions';
+import PeopleList from '../../components/PeopleList/PeopleList';
+import Filter from '../../components/Filter/Filter';
+import FiltredPeopleList from '../../components/FiltredPeopleList/FiltredPeopleList';
 import './People.css';
 
 class People extends React.Component {
